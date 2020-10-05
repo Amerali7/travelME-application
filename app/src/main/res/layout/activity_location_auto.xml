@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".activities.locationAuto">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:drawableRight="@drawable/ic_gps"
+        android:hint="Enter Place Here"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:src="@drawable/powered_by_google_light" />
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:layout_marginTop="20dp"
+        android:text="Selected Place:"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"/>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/select"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/AddLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:background="@android:drawable/toast_frame"
+        app:backgroundTint="@color/colorTextHint"
+        android:text="Add Location"
+        android:textColor="@color/colorText"
+        tools:ignore="MissingPrefix" />
+
+
+</RelativeLayout>

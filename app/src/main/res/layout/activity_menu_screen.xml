@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abbas.travelMe.activities.MenuScreen">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="351dp"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/lol" />
+
+        <Button
+            android:id="@+id/generate"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="100dp"
+            android:background="@android:drawable/toast_frame"
+            app:backgroundTint="@color/colorTextHint"
+            android:baselineAligned="false"
+            android:textColor="@color/colorText"
+            android:text="Generate Locations"
+            tools:ignore="MissingPrefix" />
+
+        <Button
+            android:id="@+id/addloc"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@android:drawable/toast_frame"
+            app:backgroundTint="@color/colorTextHint"
+            android:textColor="@color/colorText"
+            android:text="Add Location"
+            tools:ignore="MissingPrefix" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
