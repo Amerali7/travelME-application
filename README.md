@@ -1,7 +1,7 @@
 # travelME-application
 
 
-The aim of the project will be to create an application which will effectively recommend locations to a user based on their interests. The suggestions will be bespoke and correlate with a user’s personality traits which they will indicate using pre-set identifiers.
+The aim of the project is to create an application which will effectively recommend locations to a user based on their interests. The suggestions will be bespoke and correlate with a user’s personality traits which they will indicate using pre-set identifiers.
 
 Application features
 •	Suggest locations to the user
